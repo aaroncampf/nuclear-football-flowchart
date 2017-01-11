@@ -5,11 +5,11 @@ Menu for top of each web page
 */
 
 @Component({
-	selector: 'Menu-Top',
+    selector: 'MenuTopComponent',
 	template: 
 `
 <h1>Menu</h1>
 
 `
 })
-export class Menu_Top { }
+export class MenuTopComponent { }

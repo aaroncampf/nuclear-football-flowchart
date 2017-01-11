@@ -12,17 +12,17 @@ var core_1 = require('@angular/core');
 /**
 Menu for top of each web page
 */
-var Menu_Top = (function () {
-    function Menu_Top() {
+var MenuTopComponent = (function () {
+    function MenuTopComponent() {
     }
-    Menu_Top = __decorate([
+    MenuTopComponent = __decorate([
         core_1.Component({
-            selector: 'Menu-Top',
+            selector: 'MenuTopComponent',
             template: "\n<h1>Menu</h1>\n\n"
         }), 
         __metadata('design:paramtypes', [])
-    ], Menu_Top);
-    return Menu_Top;
+    ], MenuTopComponent);
+    return MenuTopComponent;
 }());
-exports.Menu_Top = Menu_Top;
-//# sourceMappingURL=Menu_Top.js.map
+exports.MenuTopComponent = MenuTopComponent;
+//# sourceMappingURL=menuTop.component.js.map

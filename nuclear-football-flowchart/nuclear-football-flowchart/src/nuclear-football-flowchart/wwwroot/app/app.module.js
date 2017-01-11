@@ -11,15 +11,15 @@ var __metadata = (this && this.__metadata) || function (k, v) {
 var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
-var Menu_Top_1 = require('./Menu_Top');
+var menuTop_component_1 = require('./Menu Top/menuTop.component');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, Menu_Top_1.Menu_Top],
-            bootstrap: [app_component_1.AppComponent, Menu_Top_1.Menu_Top]
+            declarations: [app_component_1.AppComponent, menuTop_component_1.MenuTopComponent],
+            bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])
     ], AppModule);

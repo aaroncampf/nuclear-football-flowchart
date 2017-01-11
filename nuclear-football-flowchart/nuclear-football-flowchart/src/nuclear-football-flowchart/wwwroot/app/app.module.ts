@@ -1,11 +1,11 @@
 ﻿import { NgModule }      from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent }   from './app.component';
-import { Menu_Top }   from './Menu_Top';
+import { MenuTopComponent }   from './Menu Top/menuTop.component';
 
 @NgModule({
     imports:      [ BrowserModule ],
-    declarations: [AppComponent, Menu_Top ],
-    bootstrap: [AppComponent, Menu_Top]
+    declarations: [AppComponent, MenuTopComponent ],
+    bootstrap: [AppComponent]
 })
 export class AppModule { }

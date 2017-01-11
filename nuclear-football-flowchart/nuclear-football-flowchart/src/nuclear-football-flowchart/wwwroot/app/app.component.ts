@@ -1,9 +1,10 @@
 ﻿import { Component } from '@angular/core';
 
+//<MenuTopComponent></MenuTopComponent>
 @Component({
     selector: 'my-app',
-    template: 
-`
+    template: `
+<MenuTopComponent></MenuTopComponent>
 <h1>Nuclear Flowchart</h1>
 `
 })
