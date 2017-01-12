@@ -18,7 +18,7 @@ var MenuTopComponent = (function () {
     MenuTopComponent = __decorate([
         core_1.Component({
             selector: 'MenuTopComponent',
-            template: "\n<h1>Menu</h1>\n\n"
+            template: "\n<div class=\"navbar navbar-inverse navbar-fixed-top\">\n\t<div class=\"container\">\n\t\t<div class=\"navbar-header\">\n\t\t\t<button class=\"navbar-toggle\" type=\"button\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t</button>\n\t\t\t<a class=\"navbar-brand\" href=\"/\">Nuclear Football Flowchart</a>\n\t\t</div>\n\t\t<div class=\"navbar-collapse collapse\">\n\t\t\t<ul class=\"nav navbar-nav\">\n\t\t\t\t<li><a href=\"/\">Home</a></li>\n\t\t\t\t<li><a href=\"/About\">About</a></li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n</div>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], MenuTopComponent);
