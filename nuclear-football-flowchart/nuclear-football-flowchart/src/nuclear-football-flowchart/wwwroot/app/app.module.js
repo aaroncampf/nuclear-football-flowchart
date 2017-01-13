@@ -12,13 +12,14 @@ var core_1 = require('@angular/core');
 var platform_browser_1 = require('@angular/platform-browser');
 var app_component_1 = require('./app.component');
 var menuTop_component_1 = require('./Menu Top/menuTop.component');
+var testplatform_component_1 = require('./TestPlatform/testplatform.component');
 var AppModule = (function () {
     function AppModule() {
     }
     AppModule = __decorate([
         core_1.NgModule({
             imports: [platform_browser_1.BrowserModule],
-            declarations: [app_component_1.AppComponent, menuTop_component_1.MenuTopComponent],
+            declarations: [app_component_1.AppComponent, menuTop_component_1.MenuTopComponent, testplatform_component_1.TestPlatformComponent],
             bootstrap: [app_component_1.AppComponent]
         }), 
         __metadata('design:paramtypes', [])

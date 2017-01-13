@@ -3,7 +3,7 @@
 /**
 Menu for top of each web page
 */
-@Component({    
+@Component({
 	selector: 'MenuTopComponent',
 	template: `
 <div class="navbar navbar-inverse navbar-fixed-top">

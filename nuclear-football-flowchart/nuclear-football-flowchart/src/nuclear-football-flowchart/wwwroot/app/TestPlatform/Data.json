@@ -1,0 +1,16 @@
+﻿{
+  "Data": [
+    {
+      "title": "Launch Nukes?!",
+      "choices": [
+        {
+          "title": "yes"
+        },
+        {
+          "title": "no"
+        }
+      ]
+
+    }
+  ]
+}
