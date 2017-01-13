@@ -32,13 +32,13 @@ var TestPlatformComponent = (function () {
         this.title = function () { return _this.CurrentItem.title; };
         this.CurrentItem = Data_1.Data[0];
     }
-    TestPlatformComponent.prototype.onclick = function () {
-        this.CurrentItem = this.CurrentItem.choices[0];
+    TestPlatformComponent.prototype.onclick = function (choice) {
+        this.CurrentItem = choice;
     };
     TestPlatformComponent = __decorate([
         core_1.Component({
             selector: 'TestPlatformComponent',
-            template: "\n<label>{{title()}}</label>\n<br />\n<div *ngFor=\"let choice of CurrentItem.choices; let i=index\">\n    <button>{{choice.title}}</button>\n</div>\n"
+            template: "\n<label>{{title()}}</label>\n<br />\n<div *ngFor=\"let choice of CurrentItem.choices; let i=index\">\n    <button (click) = \"onclick(choice);\">{{choice.title}}</button>\n</div>\n"
         }), 
         __metadata('design:paramtypes', [])
     ], TestPlatformComponent);

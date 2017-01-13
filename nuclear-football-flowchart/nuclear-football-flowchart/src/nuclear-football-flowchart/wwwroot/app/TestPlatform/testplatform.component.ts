@@ -26,7 +26,7 @@ import { Data } from "./Data";
 <label>{{title()}}</label>
 <br />
 <div *ngFor="let choice of CurrentItem.choices; let i=index">
-    <button>{{choice.title}}</button>
+    <button (click) = "onclick(choice);">{{choice.title}}</button>
 </div>
 `
 })
@@ -39,8 +39,8 @@ export class TestPlatformComponent {
     }
 
 
-    public onclick(): void {
-        this.CurrentItem = this.CurrentItem.choices[0];
+    public onclick(choice: FlowchartItem): void {
+        this.CurrentItem = choice;
     }
 }
 
