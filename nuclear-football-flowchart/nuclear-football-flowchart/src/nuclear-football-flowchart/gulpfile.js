@@ -1,4 +1,5 @@
-﻿var gulp = require('gulp');
+/// <binding />
+var gulp = require('gulp');
 
 var libs = './wwwroot/libs/';
 
@@ -49,6 +50,12 @@ gulp.task('restore:bootstrap', function () {
     ]).pipe(gulp.dest(libs + 'bootstrap'));
 });
 
+gulp.task('restore:systemjs-plugin-json', function () {
+	gulp.src([
+        'node_modules/systemjs-plugin-json/*.js'
+	]).pipe(gulp.dest(libs + 'systemjs-plugin-json'));
+});
+
 gulp.task('restore', [
     'restore:core-js',
     'restore:zone.js',
@@ -57,5 +64,6 @@ gulp.task('restore', [
     'restore:rxjs',
     'restore:angular-in-memory-web-api',
     'restore:angular',
-    'restore:bootstrap'
+    'restore:bootstrap',
+	'restore:systemjs-plugin-json'
 ]);

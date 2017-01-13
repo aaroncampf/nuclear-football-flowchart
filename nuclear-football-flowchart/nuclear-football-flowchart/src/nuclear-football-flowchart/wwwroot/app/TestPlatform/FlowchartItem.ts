@@ -9,7 +9,7 @@
 /**
  * Add Later
  */
-type FlowchartItem {
+type FlowchartItem = {
     title: string;
     choices: Array<FlowchartItem>;
 }

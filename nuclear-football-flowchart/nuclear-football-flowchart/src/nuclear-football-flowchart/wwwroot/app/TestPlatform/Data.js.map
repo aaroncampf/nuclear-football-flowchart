@@ -1,0 +1,1 @@
+{"version":3,"file":"Data.js","sourceRoot":"","sources":["Data.ts"],"names":[],"mappings":";AAAa,YAAI,GAAyB;IACtC;QACI,KAAK,EAAE,gBAAgB;QACvB,OAAO,EAAE;YACL;gBACI,KAAK,EAAE,KAAK;gBACZ,OAAO,EAAE,EAAE;aACd;YACD;gBACI,KAAK,EAAE,IAAI;gBACX,OAAO,EAAE,EAAE;aACd;SACJ;KAEJ;CACJ,CAAC"}

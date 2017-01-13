@@ -38,6 +38,14 @@
         main: './index.js',
         defaultExtension: 'js'
       }
+	  //  ,
+      //"json": { loader: "npm:/systemjs-plugin-json/json.js", defaultExtension: "js" }
     }
+	//,
+    //meta: {
+    //	json: {
+    //		loader: 'npm:/systemjs-plugin-json/json.js'
+    //	}
+    //}
   });
 })(this);
