@@ -1,10 +1,10 @@
-﻿import { Component } from '@angular/core';
+﻿import { Component } from "@angular/core";
 
 /**
 Menu for top of each web page
 */
 @Component({
-	selector: 'MenuTopComponent',
+	selector: "MenuTopComponent",
 	template: `
 <div class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container">

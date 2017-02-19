@@ -8,23 +8,8 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
-//import { FlowchartItem } from './FlowchartItem';
-//const Data: Array<FlowchartItem> = require("./Data.json!text").Data;
-//const Data: Array<FlowchartItem> = require("./Data.json").Data;
+var core_1 = require("@angular/core");
 var Data_1 = require("./Data");
-//@Component({
-//    selector: 'TestPlatformComponent',
-//    template: `
-//<button (click) = "onclick();">Count {{Count}}</button>
-//`
-//})
-//export class TestPlatformComponent {
-//    public Count = 0;
-//    public onclick(): void {
-//        this.Count++
-//    }
-//}
 var TestPlatformComponent = (function () {
     function TestPlatformComponent() {
         var _this = this;
@@ -37,7 +22,7 @@ var TestPlatformComponent = (function () {
     };
     TestPlatformComponent = __decorate([
         core_1.Component({
-            selector: 'TestPlatformComponent',
+            selector: "TestPlatformComponent",
             template: "\n<label>{{title()}}</label>\n<br />\n<div *ngFor=\"let choice of CurrentItem.choices; let i=index\">\n    <button (click) = \"onclick(choice);\">{{choice.title}}</button>\n</div>\n"
         }), 
         __metadata('design:paramtypes', [])

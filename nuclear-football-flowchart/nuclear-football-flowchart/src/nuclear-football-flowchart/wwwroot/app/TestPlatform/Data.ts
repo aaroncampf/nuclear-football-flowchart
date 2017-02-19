@@ -1,23 +1,4 @@
-﻿//export const Data: Array<FlowchartItem> = [
-//    {
-//        title: "Confirmed launch of Russian nuclear weapons at American home territory",
-//        choices: [
-//            {
-//                title: "yes",
-//                choices: []
-//            },
-//            {
-//                title: "no",
-//                choices: [
-
-//                ]
-//            }
-//        ]
-
-//    }
-//];
-
-export const Data: Array<FlowchartItem> = [
+﻿export const Data: Array<FlowchartItem> = [
     {
         title: "Starting Choices",
         choices: [
@@ -59,7 +40,7 @@ export const Data: Array<FlowchartItem> = [
                                                         choices: []
                                                     }
                                                 ]
-                                            },                                            
+                                            },
                                             {
                                                 title: "Denied Permission",
                                                 choices: [
@@ -81,8 +62,8 @@ export const Data: Array<FlowchartItem> = [
                                         ]
                                     }
                                 ]
-                            }                                                                
-                        ]                                           
+                            }
+                        ]
                     }
                 ]
             },

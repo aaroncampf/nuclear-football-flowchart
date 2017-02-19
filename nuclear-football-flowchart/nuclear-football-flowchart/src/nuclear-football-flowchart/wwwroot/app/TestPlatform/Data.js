@@ -1,20 +1,4 @@
-//export const Data: Array<FlowchartItem> = [
-//    {
-//        title: "Confirmed launch of Russian nuclear weapons at American home territory",
-//        choices: [
-//            {
-//                title: "yes",
-//                choices: []
-//            },
-//            {
-//                title: "no",
-//                choices: [
 "use strict";
-//                ]
-//            }
-//        ]
-//    }
-//];
 exports.Data = [
     {
         title: "Starting Choices",

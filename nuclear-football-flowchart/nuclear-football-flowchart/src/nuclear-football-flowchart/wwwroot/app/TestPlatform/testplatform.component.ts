@@ -1,27 +1,8 @@
-﻿import { Component } from '@angular/core';
-//import { FlowchartItem } from './FlowchartItem';
-//const Data: Array<FlowchartItem> = require("./Data.json!text").Data;
-//const Data: Array<FlowchartItem> = require("./Data.json").Data;
+﻿import { Component } from "@angular/core";
 import { Data } from "./Data";
 
-//@Component({
-//    selector: 'TestPlatformComponent',
-//    template: `
-//<button (click) = "onclick();">Count {{Count}}</button>
-//`
-//})
-//export class TestPlatformComponent {
-//    public Count = 0;
-
-//    public onclick(): void {
-//        this.Count++
-//    }
-//}
-
-
-
 @Component({
-    selector: 'TestPlatformComponent',
+    selector: "TestPlatformComponent",
     template: `
 <label>{{title()}}</label>
 <br />
@@ -35,7 +16,7 @@ export class TestPlatformComponent {
     public title = () => this.CurrentItem.title;
 
     constructor() {
-        this.CurrentItem = Data[0]
+        this.CurrentItem = Data[0];
     }
 
 

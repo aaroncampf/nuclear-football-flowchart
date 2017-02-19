@@ -8,7 +8,7 @@ var __decorate = (this && this.__decorate) || function (decorators, target, key,
 var __metadata = (this && this.__metadata) || function (k, v) {
     if (typeof Reflect === "object" && typeof Reflect.metadata === "function") return Reflect.metadata(k, v);
 };
-var core_1 = require('@angular/core');
+var core_1 = require("@angular/core");
 /**
 Menu for top of each web page
 */
@@ -17,7 +17,7 @@ var MenuTopComponent = (function () {
     }
     MenuTopComponent = __decorate([
         core_1.Component({
-            selector: 'MenuTopComponent',
+            selector: "MenuTopComponent",
             template: "\n<div class=\"navbar navbar-inverse navbar-fixed-top\">\n\t<div class=\"container\">\n\t\t<div class=\"navbar-header\">\n\t\t\t<button class=\"navbar-toggle\" type=\"button\" data-toggle=\"collapse\" data-target=\".navbar-collapse\">\n\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t\t<span class=\"icon-bar\"></span>\n\t\t\t</button>\n\t\t\t<a class=\"navbar-brand\" href=\"/\">Nuclear Football Flowchart</a>\n\t\t</div>\n\t\t<div class=\"navbar-collapse collapse\">\n\t\t\t<ul class=\"nav navbar-nav\">\n\t\t\t\t<li><a href=\"/\">Home</a></li>\n\t\t\t\t<li><a href=\"/About\">About</a></li>\n\t\t\t</ul>\n\t\t</div>\n\t</div>\n</div>\n"
         }), 
         __metadata('design:paramtypes', [])
